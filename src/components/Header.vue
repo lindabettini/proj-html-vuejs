@@ -3,6 +3,9 @@
 		<div class="row justify-content-center align-items-center">
 			<nav class="col-12 d-flex justify-content-center align-items-center">
 				<ul class="d-flex justify-content-center align-items-center">
+					<li>
+						<a href="#"><img src="../images/avada-marketing-logo.png" alt="" /></a>
+					</li>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Services</a></li>
 					<li><a href="#">Why Us</a></li>
