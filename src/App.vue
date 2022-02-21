@@ -1,5 +1,5 @@
 <template>
-	<div class="container-fluid">
+	<div id="app" class="container-fluid">
 		<Header />
 		<Jumbotron />
 		<Main />
@@ -23,5 +23,8 @@ export default {
 @import "@/scss/style.scss";
 #app {
 	font-family: $main-font;
+	.h1 {
+		font-size: 50px;
+	}
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-	<section class="jumbotron"></section>
+	<section id="jumbotron"></section>
 </template>
 
 <script>
@@ -10,11 +10,12 @@ export default {
 
 <style scoped lang="scss">
 @import "@/scss/style.scss";
-.jumbotron {
+#jumbotron {
 	background-image: url(../images/marketing-intro.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	height: 400px;
+	margin: 0;
 }
 </style>

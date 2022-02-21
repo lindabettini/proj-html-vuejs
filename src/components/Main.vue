@@ -16,4 +16,8 @@ export default {
 
 <style scoped lang="scss">
 @import "@/scss/style.scss";
+section {
+	margin-bottom: 60px;
+	margin-top: 30px;
+}
 </style>
