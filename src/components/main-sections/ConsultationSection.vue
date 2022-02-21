@@ -5,7 +5,7 @@
 			<div class="col-6">
 				<img src="../../images/analist1.png" alt="" />
 			</div>
-			<div class="col-6 p-150">
+			<div class="col-6 p-100">
 				<div>
 					<img src="" alt="" />
 					<h5>Business Growth</h5>
@@ -17,7 +17,7 @@
 		</div>
 		<!-- INVESTORS IN PEOPLE  -->
 		<div class="row justify-content-center align-items-center">
-			<div class="col-6 p-150">
+			<div class="col-6 p-100">
 				<h5>Investors In People</h5>
 				<div class="h1">In-House Sales Training</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat luctus. Nullam sit amet ante sed orci convallis gravida et at massa.</p>
@@ -32,7 +32,7 @@
 			<div class="col-6">
 				<img src="../../images/analist3.png" alt="" />
 			</div>
-			<div class="col-6 p-150">
+			<div class="col-6 p-100">
 				<div>
 					<img src="" alt="" />
 					<h5>Social Media Analysis</h5>
@@ -62,12 +62,11 @@ button {
 }
 
 .col-6 {
-	padding: 0 50px;
 	margin: 20px 0;
 }
 
-.col-6.p-150 {
-	padding: 0 150px;
+.col-6.p-100 {
+	padding: 0 100px;
 	p {
 		font-size: 20px;
 	}
