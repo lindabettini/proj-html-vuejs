@@ -42,6 +42,7 @@ header {
 					color: black;
 					text-decoration: none;
 					padding: 15px;
+					font-weight: bold;
 				}
 			}
 		}
