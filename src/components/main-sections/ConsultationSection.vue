@@ -53,13 +53,6 @@ export default {
 
 <style scoped lang="scss">
 @import "@/scss/style.scss";
-button {
-	background-color: $main-color;
-	border-radius: 10px;
-	color: white;
-	border: 1px solid $main-color;
-	padding: 10px 30px;
-}
 
 .col-6 {
 	margin: 20px 0;

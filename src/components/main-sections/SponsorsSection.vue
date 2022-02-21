@@ -22,7 +22,7 @@
 				<a href="#"><img src="../../images/digitalbox.png" alt="" /></a>
 			</li>
 		</ul>
-		<div class="phonebook row">
+		<div class="phonebook row justify-content-center align-items-center">
 			<div class="col-4 d-flex">
 				<img src="../../images/marketing-expert-cta.png" alt="marketing-expert-cta" />
 				<div>
@@ -30,8 +30,10 @@
 					<div class="text-little">Marketing Consultant Expert</div>
 				</div>
 			</div>
-			<div class="col-4"></div>
-			<div class="col-4"></div>
+			<div class="col-4"><div class="h4">Drive Leads and Sales with Avada</div></div>
+			<div class="col-4 text-end">
+				<button class="light-btn">(555) 802-1567</button>
+			</div>
 		</div>
 	</section>
 </template>
@@ -59,15 +61,23 @@ ul {
 }
 
 .phonebook {
-	height: 50px;
+	margin: 0 50px;
+	height: 70px;
+	-webkit-box-shadow: -1px 1px 18px 9px rgba(0, 0, 0, 0.85);
+	box-shadow: -1px 1px 18px 9px rgba(0, 0, 0, 0.356);
+	border-radius: 15px;
 	.col-4 {
 		max-height: 100%;
 	}
+	.h6 {
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
 	img {
-		max-height: 100%;
-		width: auto;
+		height: 60px;
+		width: 60px;
 		border-radius: 50%;
-		margin-right: 10px;
+		margin: 5px 15px;
 	}
 }
 

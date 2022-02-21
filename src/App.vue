@@ -26,5 +26,27 @@ export default {
 	.h1 {
 		font-size: 50px;
 	}
+
+	button {
+		background-color: $main-color;
+		color: white;
+		border-radius: 10px;
+		border: 1px solid $main-color;
+		padding: 10px 30px;
+	}
+
+	button.light-btn {
+		color: $main-color;
+		font-weight: bold;
+		background-color: $pink;
+		border-radius: 10px;
+		border: 1px solid $pink;
+		padding: 10px 30px;
+		&:hover {
+			background-color: $main-color;
+			color: white;
+			border: 1px solid $main-color;
+		}
+	}
 }
 </style>
