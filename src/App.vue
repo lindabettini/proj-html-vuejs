@@ -1,9 +1,9 @@
 <template>
 	<div id="app">
 		<Header />
+		<Jumbotron />
 		<Main />
 		<Footer />
-		<Jumbotron />
 	</div>
 </template>
 
