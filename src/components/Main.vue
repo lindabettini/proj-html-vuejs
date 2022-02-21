@@ -1,13 +1,14 @@
 <template>
-	<main></main>
+	<main>
+		<Consultation-section />
+	</main>
 </template>
 
 <script>
+import ConsultationSection from "./main-sections/ConsultationSection.vue";
 export default {
 	name: "Main",
-	props: {
-		msg: String,
-	},
+	components: { ConsultationSection },
 };
 </script>
 
