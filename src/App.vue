@@ -3,17 +3,19 @@
 		<Header />
 		<Main />
 		<Footer />
+		<Jumbotron />
 	</div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
-import Main from "./components/Main.vue";
+import Jumbotron from "./components/Jumbotron.vue";
+import Main from "./components/Main";
 import Footer from "./components/Footer.vue";
 
 export default {
 	name: "App",
-	components: { Header, Main, Footer },
+	components: { Header, Jumbotron, Main, Footer },
 };
 </script>
 

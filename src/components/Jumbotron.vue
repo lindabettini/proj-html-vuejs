@@ -1,10 +1,10 @@
 <template>
-	<header></header>
+	<section class="jumbotron"></section>
 </template>
 
 <script>
 export default {
-	name: "Header",
+	name: "Jumbotron",
 	props: {
 		msg: String,
 	},
