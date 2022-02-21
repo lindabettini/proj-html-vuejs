@@ -5,9 +5,6 @@
 <script>
 export default {
 	name: "Jumbotron",
-	props: {
-		msg: String,
-	},
 };
 </script>
 
