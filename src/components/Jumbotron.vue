@@ -12,5 +12,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/scss/_vars.scss";
+@import "@/scss/style.scss";
 </style>

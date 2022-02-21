@@ -1,5 +1,5 @@
 <template>
-	<header></header>
+	<header>ciao</header>
 </template>
 
 <script>
@@ -12,5 +12,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/scss/_vars.scss";
+@import "@/scss/style.scss";
+header {
+	color: $main-color;
+}
 </style>
