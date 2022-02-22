@@ -1,7 +1,7 @@
 <template>
 	<section id="contact-us">
 		<div class="container">
-			<div class="ror">
+			<div class="row">
 				<div class="col-6">
 					<div class="h1 m-tb-4">Let’s Make Things Happen</div>
 					<div class="h3 m-tb-4 bold">Curabitur ac leo nunc. Vestibulum et mauris vel ante finibus maximus nec ut leo. Integer consectetur.</div>
@@ -14,15 +14,17 @@
 						Digitalbox CEO
 					</div>
 				</div>
-				<div class="col-6"></div>
+				<div class="col-6 d-flex justify-content-center"><contact-us-form /></div>
 			</div>
 		</div>
 	</section>
 </template>
 
 <script>
+import ContactUsForm from "../ContactUsForm.vue";
 export default {
 	name: "ContactUs",
+	components: { ContactUsForm },
 };
 </script>
 
