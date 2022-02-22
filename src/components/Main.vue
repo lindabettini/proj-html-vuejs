@@ -1,16 +1,19 @@
 <template>
 	<main>
-		<Consultation-section />
-		<Sponsors-section />
+		<consultation-section />
+		<sponsors-section />
+		<client-service />
 	</main>
 </template>
 
 <script>
 import ConsultationSection from "./main-sections/ConsultationSection.vue";
 import SponsorsSection from "./main-sections/SponsorsSection.vue";
+import ClientService from "./main-sections/ClientService.vue";
+
 export default {
 	name: "Main",
-	components: { ConsultationSection, SponsorsSection },
+	components: { ConsultationSection, SponsorsSection, ClientService },
 };
 </script>
 
