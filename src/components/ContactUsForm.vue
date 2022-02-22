@@ -29,6 +29,8 @@ export default {
 	background-color: white;
 	color: black;
 	text-align: center;
+	-webkit-box-shadow: -1px 1px 18px 9px rgba(0, 0, 0, 0.85);
+	box-shadow: -1px 1px 18px 9px rgba(0, 0, 0, 0.356);
 	width: 500px;
 	img {
 		width: 80px;
