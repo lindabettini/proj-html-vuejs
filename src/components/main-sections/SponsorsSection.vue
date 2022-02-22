@@ -121,6 +121,10 @@ ul {
 	margin: 45px 0;
 	img {
 		max-width: 100%;
+		margin-bottom: 10px;
+	}
+	.col-4 {
+		text-align: start;
 	}
 }
 </style>
