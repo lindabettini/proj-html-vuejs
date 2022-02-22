@@ -40,7 +40,9 @@
 		<!-- LEADING ORGANISATION  -->
 		<div id="leading-oganisation">
 			<div class="row">
-				<div class="col-12"><h2 class="m-3">Trusted by Leading Organisation</h2></div>
+				<div class="col-12">
+					<div class="h1 m-area">Trusted by Leading Organisation</div>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-4 p-3">
@@ -115,6 +117,10 @@ ul {
 .xl {
 	font-size: 50px;
 	font-weight: bold;
+}
+
+.m-area {
+	margin: 60px 0;
 }
 
 #leading-oganisation {
