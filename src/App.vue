@@ -33,6 +33,9 @@ export default {
 		border-radius: 10px;
 		border: 1px solid $main-color;
 		padding: 10px 30px;
+		&:hover {
+			background-color: rgb(206, 81, 14);
+		}
 	}
 
 	button.light-btn {

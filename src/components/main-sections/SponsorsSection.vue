@@ -65,6 +65,11 @@
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-12">
+				<button>Read More Case Studies</button>
+			</div>
+		</div>
 	</section>
 </template>
 <script>
