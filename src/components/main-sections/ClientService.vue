@@ -76,6 +76,17 @@
 				</div>
 			</div>
 		</div>
+		<!-- CLIENT QUOTE  -->
+		<div id="client-quote" class="row align-items-center">
+			<div class="col-6"><img class="img-fluid rounded" src="../../images/large-testimonial-1200x1166.jpg" alt="" /></div>
+			<div class="col-6">
+				<div class="h2 mb-3">
+					“The team at Avada Marketing Consultant is fabulous. They helped us unlock our potential online and offline. We have experienced year on year growth due to their progressive approach.”
+				</div>
+				<div class="h4 mb-3">Kate Schadler</div>
+				<p>Marketing Consultant – Abstract</p>
+			</div>
+		</div>
 	</section>
 </template>
 
@@ -129,5 +140,9 @@ export default {
 	img.filter-red {
 		filter: brightness(0) saturate(100%) invert(50%) sepia(23%) saturate(5437%) hue-rotate(327deg) brightness(111%) contrast(99%);
 	}
+}
+
+#client-quote .col-6 {
+	padding: 60px;
 }
 </style>
