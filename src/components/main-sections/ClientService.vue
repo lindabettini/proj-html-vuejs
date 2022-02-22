@@ -41,7 +41,6 @@
 						<p class="font-20">Curabitur ac leo nunc vestibulum</p>
 					</div>
 				</div>
-
 				<div class="row mb-3 align-items-center">
 					<div class="col-4 text-end">
 						<img src="../../images/investment.png" alt="" />
@@ -50,6 +49,30 @@
 						<h5 class="bold">Investment</h5>
 						<p class="font-20">Curabitur ac leo nunc vestibulum</p>
 					</div>
+				</div>
+			</div>
+		</div>
+		<!-- AWARDS  -->
+		<div id="awards">
+			<div class="row justify-content-center">
+				<div class="col-12"><div class="h2 text-center">Awards</div></div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-3 text-center">
+					<img class="filter-blue" src="../../images/award-a-200x191.png" alt="award logo" />
+					<p>Winner Seo Master MAGT Smart Start Award 2017</p>
+				</div>
+				<div class="col-3 text-center">
+					<img src="../../images/award-b-200x191.png" alt="award logo" />
+					<p>Top Social Media Agencies Next Partner 2018</p>
+				</div>
+				<div class="col-3 text-center">
+					<img class="filter-red" src="../../images/award-c-200x191.png" alt="award logo" />
+					<p>10 Fastest Growing Abstract Solution Providers 2019</p>
+				</div>
+				<div class="col-3 text-center">
+					<img src="../../images/award-d-200x191.png" alt="award logo" />
+					<p>National Excellence Agencie Award Winner 2020</p>
 				</div>
 			</div>
 		</div>
@@ -87,6 +110,24 @@ export default {
 	p {
 		margin: 40px 0;
 		font-size: 24px;
+	}
+}
+
+#awards {
+	margin: 60px 0;
+	p {
+		font-size: 20px;
+	}
+	img {
+		max-width: 130px;
+		height: auto;
+		margin-top: 50px;
+	}
+	img.filter-blue {
+		filter: brightness(0) saturate(100%) invert(38%) sepia(40%) saturate(5711%) hue-rotate(189deg) brightness(97%) contrast(103%);
+	}
+	img.filter-red {
+		filter: brightness(0) saturate(100%) invert(50%) sepia(23%) saturate(5437%) hue-rotate(327deg) brightness(111%) contrast(99%);
 	}
 }
 </style>
