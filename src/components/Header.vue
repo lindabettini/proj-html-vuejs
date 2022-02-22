@@ -12,7 +12,9 @@
 					<li><a href="#">Case Studies</a></li>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Blog</a></li>
-					<li><a href="#">(555) 802-1234</a></li>
+					<li>
+						<button class="light-btn"><font-awesome-icon icon="fa-solid fa-phone" /> (555) 802-1234</button>
+					</li>
 					<li><a href="#">Free Quote</a></li>
 				</ul>
 			</nav>

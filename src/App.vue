@@ -25,6 +25,11 @@ export default {
 	font-family: $main-font;
 	.h1 {
 		font-size: 50px;
+		font-weight: bold;
+	}
+
+	.h2 {
+		font-weight: bold;
 	}
 
 	button {
