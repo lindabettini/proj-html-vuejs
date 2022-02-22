@@ -1,5 +1,6 @@
 <template>
 	<section id="sponsors-section" class="container text-center">
+		<!-- SPONSORS LOGOS  -->
 		<div class="h1 m-3">Some Brands We Work With</div>
 		<div>Libero quae quaerat, tempora unde illum est.</div>
 		<ul>
@@ -22,6 +23,7 @@
 				<a href="#"><img src="../../images/digitalbox.png" alt="" /></a>
 			</li>
 		</ul>
+		<!-- PHONEBOOK  -->
 		<div class="phonebook row justify-content-center align-items-center">
 			<div class="col-4 d-flex">
 				<img src="../../images/marketing-expert-cta.png" alt="marketing-expert-cta" />
@@ -35,9 +37,34 @@
 				<button class="light-btn">(555) 802-1567</button>
 			</div>
 		</div>
+		<!-- LEADING ORGANISATION  -->
+		<div id="leading-oganisation">
+			<div class="row">
+				<div class="col-12"><h2 class="m-3">Trusted by Leading Organisation</h2></div>
+			</div>
+			<div class="row">
+				<div class="col-4 p-3">
+					<img src="../../images/case-studies-1-1200x1349.jpg" alt="" />
+					<p class="h3">How Spaces attracted five million visitors by improving the content</p>
+					<div class="xl">200%</div>
+					<p>Higher revenue from digital</p>
+				</div>
+				<div class="col-4 p-3">
+					<img src="../../images/case-studies-4-1200x1349.jpg" alt="" />
+					<p class="h3">Creativity helped Hemisferio to increase their brand reach vertically</p>
+					<div class="xl">10X</div>
+					<p>Sales increase with the same ad spend</p>
+				</div>
+				<div class="col-4 p-3">
+					<img src="../../images/case-studies-6-1200x1349.jpg" alt="" />
+					<p class="h3">How DigitalBox used AI-powered data insight to boost sales</p>
+					<div class="xl">3-year</div>
+					<p>Partnership with Avada Consultant</p>
+				</div>
+			</div>
+		</div>
 	</section>
 </template>
-
 <script>
 export default {
 	name: "SponsorsSection",
@@ -83,5 +110,17 @@ ul {
 
 .text-little {
 	font-size: 12px;
+}
+
+.xl {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#leading-oganisation {
+	margin: 45px 0;
+	img {
+		max-width: 100%;
+	}
 }
 </style>
