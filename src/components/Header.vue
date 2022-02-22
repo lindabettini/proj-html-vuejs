@@ -4,7 +4,7 @@
 			<nav class="col-12 d-flex justify-content-center align-items-center">
 				<ul class="d-flex justify-content-center align-items-center">
 					<li>
-						<a href="#"><img src="../images/avada-marketing-logo.png" alt="" /></a>
+						<a class="no-bord" href="#"><img src="../images/avada-marketing-logo.png" alt="" /></a>
 					</li>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Services</a></li>
@@ -45,6 +45,13 @@ header {
 					text-decoration: none;
 					padding: 15px;
 					font-weight: bold;
+					border-bottom: 2px solid transparent;
+					&:hover {
+						border-bottom: 2px solid $main-color;
+					}
+					&.no-bord:hover {
+						border-bottom: 2px solid transparent;
+					}
 				}
 			}
 		}
