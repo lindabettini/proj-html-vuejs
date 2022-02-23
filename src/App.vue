@@ -23,11 +23,17 @@ export default {
 @import "@/scss/style.scss";
 #app {
 	font-family: $main-font;
+	h1 {
+		font-size: 50px;
+		font-weight: bold;
+	}
 	.h1 {
 		font-size: 50px;
 		font-weight: bold;
 	}
-
+	h2 {
+		font-weight: bold;
+	}
 	.h2 {
 		font-weight: bold;
 	}
@@ -54,6 +60,17 @@ export default {
 			background-color: $main-color;
 			color: white;
 			border: 1px solid $main-color;
+		}
+	}
+
+	button.white-btn {
+		background-color: white;
+		border: 2px solid black;
+		color: black;
+		&:hover {
+			background-color: transparent;
+			color: white;
+			border: 2px solid white;
 		}
 	}
 }
