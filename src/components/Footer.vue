@@ -53,8 +53,8 @@ export default {
 
 .social-icons a {
 	color: black;
-	margin: 5px 7px 5px 0;
-	padding: 5px 7px 5px 0;
+	margin: 7px 10px 7px 0;
+	padding: 7px 10px 7px 0;
 	font-size: 25px;
 }
 
