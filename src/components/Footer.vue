@@ -1,7 +1,10 @@
 <template>
 	<footer class="container">
 		<div class="row">
-			<div class="col-5"><div class="h2">Grow Your Online Business Strategically, and Improve Customer Retention.</div></div>
+			<div class="col-5">
+				<div class="h2">Grow Your Online Business Strategically, and Improve Customer Retention.</div>
+				<div class="social-icons"><font-awesome-icon icon="fa-brands fa-twitter" /></div>
+			</div>
 			<nav class="col" v-for="(menu, index) in menus" :key="index">
 				<h6 class="bold">{{ menu.title }}</h6>
 				<ul>
