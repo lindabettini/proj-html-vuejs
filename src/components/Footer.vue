@@ -3,7 +3,14 @@
 		<div class="row">
 			<div class="col-5">
 				<div class="h2">Grow Your Online Business Strategically, and Improve Customer Retention.</div>
-				<div class="social-icons"><font-awesome-icon icon="fa-brands fa-twitter" /></div>
+				<div class="social-icons">
+					<a href="#"><font-awesome-icon icon="fa-brands fa-facebook-f" /></a>
+					<a href="#"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
+					<a href="#"><font-awesome-icon icon="fa-brands fa-instagram" /></a>
+					<a href="#"><font-awesome-icon icon="fa-brands fa-youtube" /></a>
+					<a href="#"><font-awesome-icon icon="fa-brands fa-linkedin-in" /></a>
+					<a href="#"><font-awesome-icon icon="fa-brands fa-tiktok" /></a>
+				</div>
 			</div>
 			<nav class="col" v-for="(menu, index) in menus" :key="index">
 				<h6 class="bold">{{ menu.title }}</h6>
@@ -43,6 +50,14 @@ export default {
 
 <style scoped lang="scss">
 @import "@/scss/style.scss";
+
+.social-icons a {
+	color: black;
+	margin: 5px 7px 5px 0;
+	padding: 5px 7px 5px 0;
+	font-size: 25px;
+}
+
 ul {
 	list-style-type: none;
 	padding-left: 0;
